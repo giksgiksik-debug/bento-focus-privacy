@@ -26,13 +26,15 @@
   <h2>Information stored on your device</h2>
   <p>Bento Focus is a focus timer. Depending on how you use it, the app stores timer preferences, sound and automation settings, focus-session statistics, tags, and text you enter for tasks or notes in the app's private local storage.</p>
   <p>Timer settings, tags, focus-session statistics, and task or note text are stored locally on your device. Bento Focus does not send this focus content to a developer-operated server and does not provide developer-operated user accounts. The app's dependencies do not include advertising or analytics SDKs.</p>
+  <h2>Clipboard</h2>
+  <p>If you choose to copy your Brain Dump notes, Bento Focus copies the selected text to your device's system clipboard. Clipboard access and retention are governed by Android and the apps or services you use to paste the copied text.</p>
   <h2>Device sensors</h2>
   <p>When Flip to Focus is enabled and the app is active, it uses the device's accelerometer and, where available, proximity and ambient-light sensors to detect when the phone is face down on a surface. Sensor readings are processed on the device to detect the gesture and are not sent to a developer-operated server.</p>
   <p>Android backup is enabled in the app configuration. Depending on your Android device and backup settings, some app data may be included in Android backup and restored to a device. Bento Focus does not control the operation of Android's backup service.</p>
 
   <h2>Permissions and device features</h2>
   <ul>
-    <li><strong>Notifications:</strong> used for timer and session notifications.</li>
+    <li><strong>Notifications:</strong> used for timer and session notifications. The current task name may appear in the timer notification; whether its content is visible on the lock screen depends on your Android notification and lock-screen privacy settings.</li>
     <li><strong>Exact alarms:</strong> used to schedule timer phase transitions as accurately as Android permits, subject to device settings and permissions.</li>
     <li><strong>Do Not Disturb access:</strong> if you enable DND Sync and grant system access, the app can change the system's Do Not Disturb state during focus and restore the prior state when focus is paused or ends.</li>
     <li><strong>Vibration and foreground services:</strong> used for timer alerts and to keep an active timer, and user-selected ambience audio, operating while the app is in the background.</li>
